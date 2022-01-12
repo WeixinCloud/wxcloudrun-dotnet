@@ -1,0 +1,19 @@
+{
+  "containerPort": 80,
+  "dockerfilePath": "Dockerfile",
+  "buildDir": "",
+  "minNum": 0,
+  "maxNum": 10,
+  "cpu": 1,
+  "mem": 2,
+  "policyType": "cpu",
+  "policyThreshold": 80,
+  "envParams": {},
+  "customLogs": "stdout",
+  "initialDelaySeconds": 2,
+  "dataBaseName": "aspnet_demo",
+  "executeSQLs": [
+    "CREATE DATABASE IF NOT EXISTS aspnet_demo;",
+    "USE aspnet_demo;"
+  ]
+}

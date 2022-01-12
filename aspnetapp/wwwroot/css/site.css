@@ -1,0 +1,41 @@
+﻿.title-logo {
+  height: 80px;
+}
+.container {
+  margin-top: 100px;
+}
+.count-button {
+  width: 132px;
+  box-sizing: border-box;
+  margin: 16px 8px;
+}
+.count-number {
+  font-size: 18px;
+  font-weight: bolder;
+  margin: 0 8px;
+}
+.count-text {
+  width: 280px;
+  display: flex;
+  margin: 0 auto;
+  text-align: left;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  line-height: 40px;
+  padding: 0 12px;
+}
+.quote {
+  font-size: 12px;
+}
+.qrcode {
+  height: 180px;
+  display: block;
+  margin: 0 auto;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
