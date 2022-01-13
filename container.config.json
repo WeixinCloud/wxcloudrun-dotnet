@@ -14,6 +14,7 @@
   "dataBaseName": "aspnet_demo",
   "executeSQLs": [
     "CREATE DATABASE IF NOT EXISTS aspnet_demo;",
-    "USE aspnet_demo;"
+    "USE aspnet_demo;",
+    "CREATE TABLE IF NOT EXISTS `Counters` (`id` int(11) NOT NULL AUTO_INCREMENT, `count` int(11) NOT NULL DEFAULT 1, `createdAt` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP, `updatedAt` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP, PRIMARY KEY (`id`)) ENGINE = InnoDB DEFAULT CHARSET = utf8;"
   ]
 }
