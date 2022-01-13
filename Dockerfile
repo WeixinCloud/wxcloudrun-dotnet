@@ -1,5 +1,6 @@
 # https://hub.docker.com/_/microsoft-dotnet
 FROM mcr.microsoft.com/dotnet/sdk:6.0-alpine AS build
+RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.tencent.com/g' /etc/apk/repositories
 WORKDIR /source
 
 # copy csproj and restore as distinct layers
@@ -14,6 +15,7 @@ RUN dotnet publish -c release -o /app -r linux-musl-x64 --self-contained true --
 
 # final stage/image
 FROM mcr.microsoft.com/dotnet/runtime-deps:6.0-alpine-amd64
+RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.tencent.com/g' /etc/apk/repositories
 WORKDIR /app
 COPY --from=build /app ./
 
