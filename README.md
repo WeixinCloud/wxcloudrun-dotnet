@@ -2,7 +2,7 @@
 
 [![GitHub license](https://img.shields.io/github/license/WeixinCloud/wxcloudrun-dotnet)](https://github.com/WeixinCloud/wxcloudrun-dotnet)
 
-微信云托管 Node.js .NET Core 框架模版，实现简单的计数器读写接口，使用云托管 MySQL 读写、记录计数值。
+微信云托管 .NET Core 框架模版，实现简单的计数器读写接口，使用云托管 MySQL 读写、记录计数值。
 
 ![](https://qcloudimg.tencent-cloud.cn/raw/be22992d297d1b9a1a5365e606276781.png)
 
