@@ -23,7 +23,7 @@
 ```
 
 - `aspnetapp`：项目入口，实现主要的读写 API
-- `container.config.json`：云托管部署配置文件
+- `container.config.json`：模板部署「服务设置」初始化配置（二开请忽略）
 - `Dockerfile`：容器配置文件
 
 ## 服务 API 文档
